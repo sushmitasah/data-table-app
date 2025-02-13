@@ -1,0 +1,75 @@
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  th:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Highlight the active sort column */
+  th.active {
+    background-color: #d6d6d6;
+  }
+  
+  /* Pagination buttons */
+  button {
+    margin: 10px 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Input fields */
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  /* Column visibility toggles */
+  .column-toggle {
+    margin-bottom: 10px;
+  }
+  
+  .column-toggle label {
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .column-toggle input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
